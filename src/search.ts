@@ -14,4 +14,5 @@ export default async function getDecipherFromSongId(env: Env, songIds: Array<num
     for(let i = 0; i < 3; ++i){
         console.log(i + " " + results[i].title);
     //    mp.set(results[i].);
-    }
+    }
+}
