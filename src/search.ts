@@ -1,6 +1,6 @@
 import {list2str, str2list} from "./strConverter";
 
-export default async function getDecipherFromSongId(env: Env, songIds: Array<number>){
+export default async function getDecipherFromSongIds(env: Env, songIds: Array<number>){
     //songIdsの曲のタイトル、作曲者取得、関連ポストを取得
 
     //曲idから曲の情報取得
