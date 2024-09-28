@@ -12,7 +12,7 @@ export default async function getDecipherFromSongIds(env: Env, songIds: Array<nu
     let mp = new Map<number, string>();//(composerId, composerName)
     console.log("length = " + results.length);
     for(let i = 0; i < 3; ++i){
-        console.log(i + " " + results[i].title);
+        //console.log(i + " " + results[i].title);
     //    mp.set(results[i].);
     }
 }
